@@ -18,4 +18,9 @@ export class HomeComponent implements OnInit {
 
   }
 
+  goHome() {
+    this.route.navigateByUrl("/activity-page");
+
+  }
+
 }
